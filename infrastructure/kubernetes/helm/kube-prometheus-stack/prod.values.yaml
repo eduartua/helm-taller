@@ -1,0 +1,6 @@
+kube-prometheus-stack:
+  ## Using default values from https://github.com/grafana/helm-charts/blob/main/charts/grafana/values.yaml
+  ##
+  grafana:
+    image:
+      tag: 8.4.0

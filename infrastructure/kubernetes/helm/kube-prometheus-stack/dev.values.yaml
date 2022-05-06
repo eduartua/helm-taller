@@ -1,0 +1,5 @@
+kube-prometheus-stack:
+  grafana:
+    image:
+      tag: 8.4.0
+    replicas: 3
